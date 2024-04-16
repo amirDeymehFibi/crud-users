@@ -3,14 +3,6 @@
 # dependencies
 /node_modules
 /out
-### PWA files
-*/public/sw.js
-**/public/workbox-.js
-**/public/worker-.js
-**/public/sw.js.map
-**/public/workbox-.js.map
-**/public/worker-.js.map
-**/public/~partytown
 
 
 # misc
@@ -26,12 +18,3 @@ yarn-error.log*
 
 # Next.js
 /.next
-
-
-# Auto Generated PWA files
-**/public/sw.js
-**/public/workbox-*.js
-**/public/worker-*.js
-**/public/sw.js.map
-**/public/workbox-*.js.map
-**/public/worker-*.js.map
