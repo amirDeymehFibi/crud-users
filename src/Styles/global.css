@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "payda-light";
+  font-weight: 100;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"),
+    url(/fonts/payda/woff/PeydaWebFaNum_Light.woff) format("woff"),
+    url(/fonts/woff2/PeydaWebFaNum_Light.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "payda-thin";
+  font-weight: 300;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"),
+    url(/fonts/payda/woff/PeydaWebFaNum_Thin.woff) format("woff"),
+    url(/fonts/woff2/PeydaWebFaNum_Thin.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "payda-regular";
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"),
+    url(/fonts/payda/woff/PeydaWebFaNum_Regular.woff) format("woff"),
+    url(/fonts/woff2/PeydaWebFaNum_Regular.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "payda";
+  font-weight: 500;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"),
+    url(/fonts/payda/woff/PeydaWebFaNum_Medium.woff) format("woff"),
+    url(/fonts/woff2/PeydaWebFaNum_Medium.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "payda-semi-bold";
+  font-weight: 600;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"),
+    url(/fonts/payda/woff/PeydaWebFaNum-SemiBold.woff) format("woff"),
+    url(/fonts/woff2/PeydaWebFaNum-SemiBold.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "payda-bold";
+  font-weight: 700;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"),
+    url(/fonts/payda/woff/PeydaWebFaNum_Bold.woff) format("woff"),
+    url(/fonts/payda/woff/PeydaWebFaNum_Bold.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "payda-extera";
+  font-weight: 800;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"),
+    url(/fonts/payda/woff/PeydaWebFaNum_ExtraBold.woff) format("woff"),
+    url(/fonts/payda/woff/PeydaWebFaNum_ExtraBold.woff2) format("woff2");
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box !important;
+  padding: 0;
+  margin: 0;
+  font-family: "payda";
+  font-weight: 500;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f9f9f9 !important;
+  font-weight: 500;
+}
+a {
+  text-decoration: none !important;
+}
+
+button {
+  box-shadow: none !important;
+  text-transform: inherit !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.full-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-end {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.center-start {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.center-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+input,
+textarea {
+  caret-color: #1c49f1 !important;
+}
+
+/* width */
+.none-scroll::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* Track */
+.none-scroll::-webkit-scrollbar-track {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* Handle */
+.none-scroll::-webkit-scrollbar-thumb {
+  background: #b9bec5;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* Handle on hover */
+.none-scroll::-webkit-scrollbar-thumb:hover {
+  background: #767d85;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* width */
+.light-scroll::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+/* Handle */
+.light-scroll::-webkit-scrollbar-thumb {
+  background: #b9bec5;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* Handle on hover */
+.light-scroll::-webkit-scrollbar-thumb:hover {
+  background: #767d85;
+}
+
+.error {
+  border-color: #d63823 !important;
+}
+
+.container {
+  width: 98%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container-small {
+  width: 98%;
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 98%;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 670px) {
+  .container {
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 95%;
+  }
+}
+
+input[type="tel"] {
+  text-align: right;
+}
